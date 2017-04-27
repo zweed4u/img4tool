@@ -32,7 +32,7 @@
 
 
 #define MAX_PRINT_LEN 64*1024
-void debug_plist(plist_t plist) {
+void dbug_plist(plist_t plist) {
     uint32_t size = 0;
     char* data = NULL;
     plist_to_xml(plist, &data, &size);
